@@ -55,10 +55,21 @@ print(response.text)
 ### Step 4: Start the Pipeline
 
 #### Claude.ai (Recommended)
-1. Create a new Claude.ai Project called "MKT2700 Semester Project"
-2. In Project Settings → Custom Instructions, paste the contents of `skills/orchestrator.md`
-3. Upload all remaining files from `skills/` EXCEPT `DEPLOYMENT.md` (that's for instructors only) to Project Knowledge. That's 9 skill files (the orchestrator was already pasted in step 2).
-4. Start a new chat and say: **"Start project"**
+1. Create a new Claude.ai Project called **"MKT2700 Semester Project"**
+2. **Custom Instructions** — open `skills/orchestrator.md` in a text editor, select all, copy, and paste it into the Project's Custom Instructions box
+3. **Project Knowledge** — click the upload button (or drag-and-drop) and add these 9 files from the `skills/` folder on your computer:
+   - `phase-1-strategic-foundation.md`
+   - `phase-2-rubric-creation.md`
+   - `phase-3-concept-discovery.md`
+   - `phase-4-deep-research.md`
+   - `phase-5-concept-evaluation.md`
+   - `phase-6-refinement-specification.md`
+   - `phase-7-prd-generation.md`
+   - `llm-council-protocol.md`
+   - `prd-presentation-SKILL.md`
+
+   Do **not** upload `orchestrator.md` (already pasted above) or `DEPLOYMENT.md` (instructor-only).
+4. Start a new chat within the Project and say: **"Start project"**
 5. Follow the orchestrator's guidance through each phase
 
 #### Claude Code (Advanced)

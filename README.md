@@ -38,8 +38,8 @@ ProdDevIQ/
 
 ### Option A: Clone with Git (recommended)
 ```bash
-git clone https://github.com/Brads777/ProdDevIQ.git
-cd ProdDevIQ
+git clone https://github.com/Brads777/MKT2700-ProdDevIQ.git
+cd MKT2700-ProdDevIQ
 pip install -r requirements.txt
 ```
 
