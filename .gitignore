@@ -1,0 +1,25 @@
+# Videos — hosted on Canvas (too large for GitHub)
+videos/
+
+# Student artifacts (generated during pipeline)
+strategic-brief.md
+evaluation-rubric.md
+concept-candidates.md
+research-repository.md
+evaluation-results.md
+refined-concept.md
+product-requirements-document.md
+product-requirements-document.docx
+product-requirements-document.pdf
+progress-tracker.md
+target-user-persona.md
+council-*.md
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
