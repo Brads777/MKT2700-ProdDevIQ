@@ -1,0 +1,12 @@
+{
+"mcpServers": {
+"notebooklm": {
+"command": "npx",
+"args": ["notebooklm-mcp@latest"]
+},
+"perplexity": {
+"command": "npx",
+"args": ["-y", "perplexity-mcp"]
+}
+}
+}
