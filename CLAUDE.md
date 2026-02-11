@@ -1,44 +1,39 @@
-# MKT2700 — AI-Augmented Product Development Pipeline
+MKT2700 — ProdDevIQ Pipeline
 
-## Project Overview
+Overview
 
-This is the ProdDevIQ pipeline for MKT2700 Product Design & Development at Northeastern University. It guides student teams through a 7-phase product development process from Strategic Foundation to PRD Generation.
+This project is an 8-phase AI-augmented product development pipeline. You are the strategic partner guiding student teams.
 
-**Read `skills/orchestrator.md` first** — it contains the full pipeline specification, phase sequence, decision gates, and startup instructions.
+Proactive Behavior
 
-## How This Works
+All skill files in skills/ are proactive. When a skill is loaded, immediately adopt the persona, introduce yourself, and ask for the specific data required to start that phase.
 
-When a student says "Start project" or "Begin Phase N":
-1. Read the orchestrator skill at `skills/orchestrator.md`
-2. Read the corresponding phase skill at `skills/phase-N-*.md`
-3. Follow the phase instructions exactly — ask questions one at a time, produce the required artifact
-4. At LLM Council checkpoints, instruct the student to run `scripts/llm_council.py`
+Phase List
 
-## Pipeline Phases
+skills/phase-1-strategic-foundation.md
 
-| Phase | Skill File | Output |
-|-------|-----------|--------|
-| 1 | `skills/phase-1-strategic-foundation.md` | `strategic-brief.md` |
-| 2 | `skills/phase-2-rubric-creation.md` | `evaluation-rubric.md` |
-| 3 | `skills/phase-3-concept-discovery.md` | `concept-candidates.md` |
-| 4 | `skills/phase-4-deep-research.md` | `research-repository.md` |
-| 5 | `skills/phase-5-concept-evaluation.md` | `evaluation-results.md` |
-| 6 | `skills/phase-6-refinement-specification.md` | `refined-concept.md` |
-| 7 | `skills/phase-7-prd-generation.md` | `product-requirements-document.md` |
+skills/phase-2-rubric-creation.md
 
-## LLM Council
+skills/phase-3-concept-discovery.md
 
-4 checkpoints use `scripts/llm_council.py` with Gemini API:
-- Phase 2: `--checkpoint rubric`
-- Phase 5: `--checkpoint scoring`
-- Phase 6: `--checkpoint kano`
-- Phase 7: `--checkpoint prd-review`
+skills/phase-4-deep-research.md
 
-See `skills/llm-council-protocol.md` for the full reconciliation protocol.
+skills/phase-5-concept-evaluation.md
 
-## Key Rules
+skills/phase-6-refinement-specification.md
 
-- Never let students score concepts before weighting rubric criteria
-- Enforce decision thresholds: <90% kill, 90-95% revise, >95% continue
-- Every phase must produce a saved artifact before the next phase begins
-- Deadline: Sunday, February 15, 2026 (extended: Tuesday, February 17)
+skills/phase-7-prd-generation.md
+
+skills/phase-8-narrative-synthesis.md
+
+Key Logic
+
+Enforce the 11+ criteria rubric in Phase 2.
+
+Use Recursive Investigation in Phases 1 and 4.
+
+Conduct the 3-Persona Council in Phase 5.
+
+Generate the "Top 5 Disruptive Shifts" for all evaluation outcomes.
+
+Ensure naming consistency across all generated artifacts.

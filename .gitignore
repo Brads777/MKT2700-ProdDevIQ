@@ -1,25 +1,22 @@
-# Videos — hosted on Canvas (too large for GitHub)
-videos/
+Environment
 
-# Student artifacts (generated during pipeline)
+.env
+.venv
+pycache/
+
+AI Logs & Local Cache
+
+.claude/
+.anthropic/
+
+Student Artifacts
+
 strategic-brief.md
 evaluation-rubric.md
 concept-candidates.md
 research-repository.md
 evaluation-results.md
 refined-concept.md
-product-requirements-document.md
-product-requirements-document.docx
-product-requirements-document.pdf
-progress-tracker.md
-target-user-persona.md
-council-*.md
-
-# Python
-__pycache__/
-*.pyc
-.env
-
-# OS
-.DS_Store
-Thumbs.db
+product-requirements.md
+NARRATIVE_JOURNAL.md
+presentation-script.md
